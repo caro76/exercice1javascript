@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <h1 onclick="displayVar()">Nom de famille</h1>
+       
+        <form name ="f">
+          <label>votre nom : </label>
+          <input type = 'text' name ="nom" id="lastName">
+          <label>votre prénom  : </label>
+          <input type = 'text' name ="prenom" id="firstName">
+          <label>Ville : </label>
+          <input type = 'text' name ="ville" id="city">
+          <button onclick="displayinfo()">envoyer</button>
+        </form>
+
+        <hr>
+        <form action="">
+          <label for="x">
+            x
+          </label>
+          <input type="number" id="x" name="x">
+          <label for="y">
+            y
+          </label>
+          <input type="number" id="y" name="y">
+          <button onclick="calcul()">Calculer</button>
+        </form>
+
+        <hr>
+
+        <form action="">
+          <label for="pointure">
+            pointure
+          </label>
+          <input type="number" id="pointure" name="pointure">
+          <label for="annee">
+            annee
+          </label>
+          <input type="number" id="annee" name="annee">
+          <button onclick="calcul2()">Calculer</button>
+        </form>
+
+        <hr>
+
+        <form action="">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age">
+          <button onclick="verification()">Vérifier</button>
+        </form>
+
+  <script src="assets/js/script.js"></script>  
+</body>
+</html>
